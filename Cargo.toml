@@ -1,0 +1,13 @@
+[package]
+name = "manual-eager-loading-test"
+version = "0.1.0"
+authors = ["David Pedersen <david.pdrsn@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+diesel = "1"
+juniper = "0.14.0"
+juniper-from-schema = "0.4.1"
+juniper-eager-loading = "0.3.1"
